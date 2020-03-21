@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Individu ke-4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid">
+      <!-- navbar -->
+      <div id="navbar">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo.gif" alt="Responsive img">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Checkout <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Cart</a>
+                  <a class="nav-item nav-link" href="#">Login</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- menu -->
+      <div id="menu">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Wanna One (Hangul: 워너원) adalah grup vokal pria Korea Selatan yang dibentuk oleh CJ E&M melalui acara kompetisi survival Produce 101 Season 2 pada tahun 2017.[1] Grup ini terdiri dari 11 anggota: Kang Daniel, Park Ji-hoon, Lee Dae-hwi, Kim Jae-hwan, Ong Seong-wu, Park Woo-jin, Lai Kuan-lin, Yoon Ji-sung, Hwang Min-hyun, Bae Jin-young dan Ha Sung-woon. Grup ini debut pada 7 Agustus 2017 di bawah naungan Swing Entertainment dan CJ E&M. Kontrak mereka berakhir pada tanggal 31 Desember 2018, tetapi aktivitas terakhir mereka sebagai grup akan berada di konser terakhir mereka pada 24-27 Januari 2019.</div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+        </div>
+      </div>
+  </div>
+
+  <!-- JScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $('#myTab a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+  </script>
+</body>
+</html>
